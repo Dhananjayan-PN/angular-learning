@@ -12,9 +12,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { DrawerContentComponent } from './drawer-content/drawer-content.component';
 
 @NgModule({
-  declarations: [AppComponent, DashboardComponent],
+  declarations: [AppComponent, DashboardComponent, DrawerContentComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
