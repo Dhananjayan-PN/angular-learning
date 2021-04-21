@@ -71,7 +71,14 @@ mat-form-field {
   border-radius: 20px;
   height: 34px;
   margin-top: -3px;
+  margin-left: 25px;
 }
 .notif-container {
   margin-top: 10px;
+}
+
+.account-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
 }
