@@ -1,0 +1,22 @@
+mat-grid-tile {
+  background: transparent;
+  width: 100px;
+}
+
+.okr {
+  width: 95%;
+  height: 95%;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 3px 8px #cccccc;
+  border-radius: 15px;
+}
+
+.add-okr {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 0px transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -13,9 +13,17 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { DrawerContentComponent } from './drawer-content/drawer-content.component';
+import { DashboardContentComponent } from './dashboard-content/dashboard-content.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 @NgModule({
-  declarations: [AppComponent, DashboardComponent, DrawerContentComponent],
+  declarations: [
+    AppComponent,
+    DashboardComponent,
+    DrawerContentComponent,
+    DashboardContentComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -26,6 +34,8 @@ import { DrawerContentComponent } from './drawer-content/drawer-content.componen
     MatSelectModule,
     MatCardModule,
     MatButtonModule,
+    MatGridListModule,
+    MatProgressBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
