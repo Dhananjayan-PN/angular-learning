@@ -1,1 +1,44 @@
-<mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+<mat-drawer-container>
+  <mat-drawer mode="side" opened> Drawer content</mat-drawer>
+  <mat-drawer-content style="align-items: flex-end">
+    <div class="top-row">
+      <form class="form1">
+        <mat-form-field class="form-field">
+          <mat-label>Search</mat-label>
+          <mat-icon matPrefix class="icon">search</mat-icon>
+          <input matInput type="text" class="search-field" />
+        </mat-form-field>
+      </form>
+      <form class="form2">
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Select Quarter</mat-label>
+          <mat-select class="quarter-select">
+            <mat-option value="option1">Q1 2021</mat-option>
+            <mat-option value="option1">Q2 2021</mat-option>
+            <mat-option value="option1">Q3 2021</mat-option>
+            <mat-option value="option1">Q4 2021</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </form>
+      <div style="margin-left: auto" class="notif-container">
+        <button
+          mat-mini-fab
+          color="primary"
+          aria-label="Example icon button with a plus one icon"
+        >
+          <mat-icon>notifications</mat-icon>
+        </button>
+      </div>
+      <div style="margin-left: 40px">
+        <mat-card class="user-card">
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>John Doe</mat-card-title>
+            <mat-card-subtitle>Google</mat-card-subtitle>
+            <mat-icon matSuffix class="icon">arrow_drop_down</mat-icon>
+          </mat-card-header>
+        </mat-card>
+      </div>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>
