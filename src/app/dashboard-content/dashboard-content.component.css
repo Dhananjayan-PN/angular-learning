@@ -14,8 +14,6 @@ mat-grid-tile {
 .okr-content {
   padding: 22px;
   padding-top: 25px;
-  display: flex;
-  flex-direction: column;
 }
 
 .card-logo {
@@ -23,12 +21,6 @@ mat-grid-tile {
   margin-right: 10px;
   height: 35px;
   width: 35px;
-}
-
-.card-data {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .card-text {
@@ -39,10 +31,6 @@ mat-grid-tile {
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 0px 0px 0px transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .content-container {

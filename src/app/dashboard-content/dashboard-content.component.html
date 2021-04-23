@@ -3,14 +3,18 @@
   <mat-grid-list cols="3" rowHeight="1:1">
     <mat-grid-tile>
       <div class="okr">
-        <div class="okr-content">
+        <div fxLayout="column" class="okr-content">
           <div>
             <button mat-mini-fab color="primary" class="card-logo">
               <mat-icon style="font-size: 18px">navigation</mat-icon>
             </button>
             <h2 style="font-weight: 400" class="card-text">Some Objective</h2>
           </div>
-          <div class="card-data" style="margin-top: 130px">
+          <div
+            fxLayout="row"
+            fxLayoutAlign="center center"
+            style="margin-top: 130px"
+          >
             <h4 style="font-weight: 500" class="card-text">48%</h4>
             <h4 style="margin-left: 5px" class="card-text">complete</h4>
             <button
@@ -27,7 +31,11 @@
             color="accent"
             value="48"
           ></mat-progress-bar>
-          <div class="card-data" style="margin-top: 10px">
+          <div
+            fxLayout="row"
+            fxLayoutAlign="center center"
+            style="margin-top: 10px"
+          >
             <h4 style="font-weight: 500" class="card-text">Individual</h4>
             <h4 style="margin-left: auto" class="card-text">Q1 2021</h4>
           </div>
@@ -35,7 +43,7 @@
       </div>
     </mat-grid-tile>
     <mat-grid-tile>
-      <div class="okr add-okr">
+      <div fxLayout="column" fxLayoutAlign="center center" class="okr add-okr">
         <button mat-mini-fab color="accent" style="margin-bottom: 20px">
           <mat-icon>add</mat-icon>
         </button>
