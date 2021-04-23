@@ -11,12 +11,32 @@ mat-grid-tile {
   border-radius: 15px;
 }
 
+.okr-content {
+  padding: 22px;
+  padding-top: 25px;
+}
+
+.card-logo {
+  box-shadow: 0px 0px 0px;
+  margin-right: 10px;
+  height: 35px;
+  width: 35px;
+}
+
+.card-text {
+  display: inline-block;
+}
+
 .add-okr {
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 0px 0px 0px transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+.content-container {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1050px;
+  width: 95%;
 }
