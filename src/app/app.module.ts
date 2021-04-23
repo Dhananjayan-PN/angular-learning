@@ -16,6 +16,7 @@ import { DrawerContentComponent } from './drawer-content/drawer-content.componen
 import { DashboardContentComponent } from './dashboard-content/dashboard-content.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
     MatButtonModule,
     MatGridListModule,
     MatProgressBarModule,
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
