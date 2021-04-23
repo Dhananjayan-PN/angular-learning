@@ -1,56 +1,23 @@
-<div
-  style="
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1050px;
-    width: 95%;
-  "
->
+<div class="content-container">
   <h2 style="margin-left: 10px">My OKRs</h2>
   <mat-grid-list cols="3" rowHeight="1:1">
     <mat-grid-tile>
       <div class="okr">
-        <div style="padding: 20px; display: flex; flex-direction: column">
+        <div class="okr-content">
           <div>
-            <button
-              mat-mini-fab
-              color="primary"
-              style="
-                box-shadow: 0px 0px 0px;
-                margin-right: 10px;
-                height: 35px;
-                width: 35px;
-              "
-            >
+            <button mat-mini-fab color="primary" class="card-logo">
               <mat-icon style="font-size: 18px">navigation</mat-icon>
             </button>
-            <h2 style="font-weight: 400; display: inline-block">
-              Some Objective
-            </h2>
+            <h2 style="font-weight: 400" class="card-text">Some Objective</h2>
           </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: row;
-              align-items: center;
-              margin-top: 130px;
-            "
-          >
-            <h4
-              style="display: inline-block; font-weight: 500; margin-top: 10px"
-            >
-              48%
-            </h4>
-            <h4
-              style="display: inline-block; margin-left: 5px; margin-top: 10px"
-            >
-              complete
-            </h4>
+          <div class="card-data" style="margin-top: 130px">
+            <h4 style="font-weight: 500" class="card-text">48%</h4>
+            <h4 style="margin-left: 5px" class="card-text">complete</h4>
             <button
               mat-button
               color="accent"
-              style="display: inline-block; margin-left: auto"
+              style="margin-left: auto; margin-top: -15px"
+              class="card-text"
             >
               ON TRACK
             </button>
@@ -60,17 +27,9 @@
             color="accent"
             value="48"
           ></mat-progress-bar>
-          <div style="display: flex; flex-direction: row; align-items: center">
-            <h4
-              style="display: inline-block; font-weight: 500; margin-top: 10px"
-            >
-              Individual
-            </h4>
-            <h4
-              style="display: inline-block; margin-left: auto; margin-top: 10px"
-            >
-              Q1 2021
-            </h4>
+          <div class="card-data" style="margin-top: 10px">
+            <h4 style="font-weight: 500" class="card-text">Individual</h4>
+            <h4 style="margin-left: auto" class="card-text">Q1 2021</h4>
           </div>
         </div>
       </div>
