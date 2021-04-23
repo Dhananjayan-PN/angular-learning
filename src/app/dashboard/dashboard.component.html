@@ -3,7 +3,7 @@
     <app-drawer-content></app-drawer-content>
   </mat-drawer>
   <mat-drawer-content>
-    <div class="top-row">
+    <div fxLayout="row" fxLayoutAlign="space-between start" class="top-row">
       <form class="form1">
         <mat-form-field class="form-field">
           <mat-label>Search</mat-label>
@@ -22,7 +22,7 @@
           </mat-select>
         </mat-form-field>
       </form>
-      <div class="account-container">
+      <div fxLayout="row" style="margin-left: 5px">
         <div class="notif-container">
           <button
             mat-mini-fab
