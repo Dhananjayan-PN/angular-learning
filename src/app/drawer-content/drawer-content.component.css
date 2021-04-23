@@ -1,3 +1,23 @@
+.drawer-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.company {
+  display: inline-block;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .link-button {
   margin-right: auto;
   margin-top: 30px;
@@ -5,4 +25,19 @@
   width: 100%;
   display: flex;
   align-items: flex-start;
+}
+
+.link-button-fab {
+  box-shadow: 0px 0px 0px;
+  margin-left: 20px;
+  height: 35px;
+  width: 35px;
+}
+
+.link-button-text {
+  color: #000;
+  display: inline-block;
+  margin: 0;
+  margin-left: 15px;
+  margin-right: 10px;
 }
