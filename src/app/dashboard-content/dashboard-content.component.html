@@ -1,54 +1,38 @@
 <div class="content-container">
-  <h1 style="margin-left: 10px">My OKRs</h1>
-  <mat-grid-list cols="3" rowHeight="1:1">
-    <mat-grid-tile>
-      <div class="okr">
-        <div fxLayout="column" class="okr-content">
-          <div>
-            <button mat-mini-fab color="primary" class="card-logo">
-              <mat-icon style="font-size: 18px">navigation</mat-icon>
-            </button>
-            <h2 style="font-weight: 400" class="card-text">Some Objective</h2>
-          </div>
-          <div
-            fxLayout="row"
-            fxLayoutAlign="center center"
-            style="margin-top: 130px"
-          >
-            <h4 style="font-weight: 500" class="card-text">48%</h4>
-            <h4 style="margin-left: 5px" class="card-text">complete</h4>
-            <button
-              mat-button
-              color="accent"
-              style="margin-left: auto; margin-top: -15px"
-              class="card-text"
-            >
-              ON TRACK
-            </button>
-          </div>
-          <mat-progress-bar
-            mode="determinate"
-            color="accent"
-            value="48"
-          ></mat-progress-bar>
-          <div
-            fxLayout="row"
-            fxLayoutAlign="center center"
-            style="margin-top: 10px"
-          >
-            <h4 style="font-weight: 500" class="card-text">Individual</h4>
-            <h4 style="margin-left: auto" class="card-text">Q1 2021</h4>
-          </div>
+  <h1 class="ml-10">My OKRs</h1>
+  <div fxLayout="row wrap" fxLayoutGap="20px" fxLayoutAlign="start center">
+    <div class="okr">
+      <div fxLayout="column" class="okr-content">
+        <div>
+          <button mat-mini-fab color="primary" class="card-logo">
+            <mat-icon class="font-18">navigation</mat-icon>
+          </button>
+          <h2 class="card-text fw-400">Some Objective</h2>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="center center" class="mt-130">
+          <h4 class="card-text"><b>48%</b></h4>
+          <h4 class="card-text ml-5">complete</h4>
+          <button mat-button color="accent" class="card-text ml-auto mt-n15">
+            ON TRACK
+          </button>
+        </div>
+        <mat-progress-bar
+          mode="determinate"
+          color="accent"
+          value="48"
+        ></mat-progress-bar>
+        <div fxLayout="row" fxLayoutAlign="center center" class="mt-10">
+          <h4 class="card-text"><b>Individual</b></h4>
+          <h4 class="card-text ml-auto">Q1 2021</h4>
         </div>
       </div>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <div fxLayout="column" fxLayoutAlign="center center" class="okr add-okr">
-        <button mat-mini-fab color="accent" style="margin-bottom: 20px">
-          <mat-icon>add</mat-icon>
-        </button>
-        <h4>Create Objective</h4>
-      </div>
-    </mat-grid-tile>
-  </mat-grid-list>
+    </div>
+
+    <div fxLayout="column" fxLayoutAlign="center center" class="okr add-okr">
+      <button mat-mini-fab color="accent" class="mb-20">
+        <mat-icon>add</mat-icon>
+      </button>
+      <h4>Create Objective</h4>
+    </div>
+  </div>
 </div>
