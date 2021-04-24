@@ -40,3 +40,35 @@ mat-grid-tile {
   max-width: 1050px;
   width: 95%;
 }
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mt-n15 {
+  margin-top: -15px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-130 {
+  margin-top: 130px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
